@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breakfast Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Breakfast Timer</h1>
+    
+    <!-- Bacon Timer -->
+    <div class="timer" id="bacon">
+      <img src="Food/Bacon.png">
+      <h2>Bacon</h2>
+      <button id="startBacon">Start</button>
+      <button id="pauseBacon">Pause</button>
+      <button id="resetBacon">Reset</button>
+      <p id="baconTimer"></p>
+    </div>
+
+    <!-- Eggs Timer -->
+    <div class="timer" id="eggs">
+      <img src="Food/Egg.png">
+      <h2>Eggs</h2>
+      <select id="eggType">
+        <option value="scrambled">Scrambled</option>
+        <option value="sunnySideUp">Sunny Side Up</option>
+      </select>
+      <input type="number" id="eggCount" value="1" min="1" max="4" />
+      <button id="startEggs">Start</button>
+      <button id="pauseEggs">Pause</button>
+      <button id="resetEggs">Reset</button>
+      <p id="eggsTimer"></p>
+    </div>
+
+    <!-- Pancakes Timer -->
+    <div class="timer" id="pancakes">
+      <img src="Food/Pancake.png">
+      <h2>Pancakes</h2>
+      <button id="startPancakes">Start</button>
+      <button id="pausePancakes">Pause</button>
+      <button id="resetPancakes">Reset</button>
+      <p id="pancakesTimer"></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+ 

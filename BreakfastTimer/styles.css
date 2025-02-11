@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Importing a pixelated font */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive; /* Applying the pixelated font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170vh;
+  background-color: #5cd1e3;
+  text-transform: uppercase;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+  margin-bottom: 40px;
+  color: white;
+  text-shadow: 4px 4px 0px black; /* Adds a pixelated shadow effect */
+}
+
+.timer {
+  margin: 20px;
+  padding: 20px;
+  border: 4px solid black; /* Thicker border for a more retro look */
+  background-color: #fff;
+  display: inline-block;
+  font-size: 30px; /* Increased font size for better visibility */
+  font-weight: bold;
+}
+
+button {
+  font-family: 'Press Start 2P', cursive; /* Ensuring buttons also have a pixelated font */
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid black;
+  background-color: #ffcc00;
+  cursor: pointer;
+}
+
+select, input {
+  margin: 10px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.food-icon {
+  width: 90px; /* Adjust size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  image-rendering: pixelated; /* Ensures images remain pixelated */
+}
+
+#bacon img, #eggs img, #pancakes img {
+  width: 140px;
+  height: auto;
+  image-rendering: pixelated; /* Ensures images remain pixelated */
+}
+
+.timer h2 {
+  font-size: 40px; /* Adjust the size as needed */
+}
