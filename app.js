@@ -14,8 +14,8 @@ let baconPaused = false;
 let eggsPaused = false;
 let pancakesPaused = false;
 
-let sizzlingSound = new Audio('audio/Wait.mp3'); // Sizzling sound (looping)
-let beepSound = new Audio('audio/Bell.mp3'); // Beep sound
+let sizzlingSound = new Audio('BreakfastTimer/Audio/Wait.mp3'); // Sizzling sound (looping)
+let beepSound = new Audio('BreakfastTimer/Audio/Bell.mp3'); // Beep sound
 
 document.getElementById('startBacon').onclick = function() {
   startBacon();
